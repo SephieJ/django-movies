@@ -4,5 +4,5 @@ from .serializers import MovieSerializer
 
 
 class MovieViewSet(viewsets.ModelViewSet):
-    queryset = Movie.object.all()
+    queryset = Movie.objects.all()
     serializer_class = MovieSerializer
